@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 st.title("🎗️ Breast Cancer Risk Predictor")
-st.write("<h5>Enter the following information to predict the likelihood of breast cancer.</h5>")
+st.markdown("##### Enter the following information to predict the likelihood of breast cancer.")
 
 # ------------------- Load Model -------------------
 model_path = "breastcancer.joblib"
